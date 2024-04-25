@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line"
+    >
+    <stroke
+        android:width="2dp"
+        android:color="#000000" /> <!-- 斜杠的颜色和宽度 -->
+    <size
+        android:width="30dp"
+        android:height="30dp" /> <!-- 斜杠的长度 -->
+    <rotate
+        android:fromDegrees="45"
+        android:pivotX="50%"
+        android:pivotY="50%" /> <!-- 旋转角度，这里设置为45度 -->
+
+</shape>
